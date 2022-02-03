@@ -55,3 +55,44 @@ li {
     color: black;
     font-size: 85%;
 }
+div.form-part { 
+    overflow: hidden;
+    background-color: rgb(230, 229, 229);
+    padding: 1%;
+    display: flex;
+}
+h2.text {
+    
+    padding-left: 25%;
+    
+}
+.text-box {
+    margin-top: 10%;
+    margin-left: 15%;
+    padding: 3%;
+    width: 120%;
+    border: 1px solid gray;
+}
+.submit-button {
+    background-color: rgb(11, 146, 230);
+    color: white;
+    text-align: left;
+    padding:3%;
+    
+    float: right;
+    padding-left: 15%;
+    width: 110%;
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 35%;
+    margin-bottom: 3%;
+    border-color: rgb(11, 146, 230);
+    border-width: thin;
+    
+}
+.left {
+    text-align: left;
+}
+.right {
+    text-align: right;
+}
