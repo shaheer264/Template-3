@@ -1,0 +1,15 @@
+ul {
+    list-style-type: none;
+    display: flex;
+    padding-left: 75%;
+    padding-top: 2.7%;
+    font-size: small;
+}
+li {
+    padding-left: 9%; 
+}
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 2%;
+    padding-bottom: 3%;
+}
