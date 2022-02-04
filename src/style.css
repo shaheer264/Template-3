@@ -27,23 +27,22 @@ li {
 }
 .main-2 {
     text-align: center;
-    display: flex;
+    overflow: hidden;
     margin-left: 2.5%;
     margin-right: 2.5%;
     padding-bottom: 2%;
 }
 .block-1 {
-     
     width: 25%;
     padding-bottom: 2%;
     margin-left: 4%;
     margin-right: 4%;
+    float: left;
 }
 .block-1-1 {
     background-color: rgb(230, 229, 229);
     padding: 8%;
     padding-bottom: 45%;
-     
 }
 .block-para {
     font-size: small;
@@ -59,40 +58,74 @@ div.form-part {
     overflow: hidden;
     background-color: rgb(230, 229, 229);
     padding: 1%;
-    display: flex;
+    overflow: hidden;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
 }
 h2.text {
-    
-    padding-left: 25%;
-    
+    padding-left: 18%;
+    width: 15%;
+    padding-right: 0%;
+    float: left;
+    margin-top: 2%;
 }
 .text-box {
-    margin-top: 10%;
-    margin-left: 15%;
-    padding: 3%;
-    width: 120%;
+    margin-top: 1.8%;
+    padding: 1%;
+    width: 30%;
+    float: left;
     border: 1px solid gray;
 }
-.submit-button {
+button.Button {
+    border-color: rgb(11, 146, 230);
+    border-width: thin;
     background-color: rgb(11, 146, 230);
     color: white;
     text-align: left;
-    padding:3%;
-    
-    float: right;
-    padding-left: 15%;
-    width: 110%;
-    margin-top: 2%;
-    margin-left: 20%;
-    margin-right: 35%;
-    margin-bottom: 3%;
-    border-color: rgb(11, 146, 230);
-    border-width: thin;
-    
+    padding: 1%;
+    padding-left: 3%;
+    float: left;
+    width: 15%;
+    margin-top: 1.8%;
+    margin-left: 1%;
 }
-.left {
-    text-align: left;
+.footer-para {
+    margin-top: 3%;
+    padding-left: 7%;
+    font-size: small;
+    margin-bottom: 5%;
 }
-.right {
-    text-align: right;
+.space {
+    padding-right: 70%;  
+}
+
+@media screen and (max-width: 600px) {
+    div.form-part {
+        display: block;
+        width: 100%;
+    }
+    div.block-1 {
+        display: block;
+        float: none; 
+        margin-left: 40%;
+    }
+    h2.text {
+        display: block;
+        float: none; 
+        margin-left: 20%;
+        text-align: center;
+    }
+    .text-box {
+        display: block;
+        float: none; 
+        margin-left: 35%;
+    }
+    button.Button {
+        display: block;
+        float: none;
+        margin-left: 45%;
+    }
+    .space {
+        padding-right: 41%;  
+    }
 }
